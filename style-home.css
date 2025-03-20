@@ -12,7 +12,6 @@ header {
     background: white;
     padding: 20px;
 }
-
 .modules {
     max-width: 400px;
     margin: auto;
@@ -22,7 +21,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .modules li {
     flex: 1 1 calc(50% - 10px);
     margin: 5px;
@@ -32,14 +30,12 @@ header {
     border-radius: 5px;
     transition: background-color 0.5s;
 }
-
 .modules a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     display: block;
 }
-
 .modules li:hover {
     background-color: #c56161;
 }
