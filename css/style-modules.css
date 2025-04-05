@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    color: #333;
+    line-height: 1.5;
+    font-size: 16px;
+}
+header {
+    background: #f4f4f4;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+nav ul li {
+    background-color: #791010;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+nav ul li a:hover {
+    background: #fad8d8;
+    color: #333;
+    transform: scale(1.05);
+}
+main {
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px 30px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+section{
+    padding: 20px 0;
+}
+h1 {
+    font-size: 36px;
+    margin: 10px;
+    padding: 0;
+}
+h2 {
+    color: #791010;
+    border-bottom: 2px solid #791010;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+h3 {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h4 {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+p {
+    margin: 0 0 1em 0;
+}
+strong {
+    color: #222;
+}
+mark {
+    background-color: transparent;
+    color: #107979;
+    font-weight: bold;
+}
+var {
+    font-family: 'Fira Code', monospace;
+    background-color: transparent;
+    color: #791010;
+  }
+ul, ol {
+    padding-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+li {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.nowrap {
+    background-color: #fad8d8;
+    border-left: 4px solid #791010;
+    white-space: nowrap;
+    overflow-x: scroll;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 10;
+}
+aside {
+    background-color: #d8fafa;
+    border-left: 4px solid #107979;
+    padding: 10px;
+    margin: 20px 0;
+}
+.case-study {
+  background-color: #f0f8ff;
+  border: 2px solid #5dade2;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin: 30px 0;
+  box-shadow: 0 0 2px 2px #9cd3f8;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+  }
+  
